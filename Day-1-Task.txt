@@ -1,0 +1,15 @@
+=>HTTP
+
+HTTP(Hyper Text Transfer Protocol) is the backbone of communication between clients-side and servers-side. After a long years, HTTP has undergone advancements with HTTP1.1 being the standard for many years until the introduction of HTTP2. The shift from HTTP1.1 to HTTP2 marks a significant upgrade in how these communications are handled.
+
+=>HTTP1.1
+
+HTTP1.1 was introduced in 1997, has served as the World Wide Web for over two decades. It operates on a straightforward request-response model. However, it has some limitations. Each asset on a web page (like images or scripts) requires a separate connection to the server. It can slow down loading times, overall page speed and especially on complex sites. Servers can't send resources until requested,leading to inefficiencies in loading multiple assets.
+
+=>HTTP2
+
+HTTP2 was inntroduced in 2015,it can be allow multiple requests and responses to be sent over a single connection simultaneously. This reduces the time it takes to load a webpage by eliminating the need for multiple connections.It reduces overhead by compressing headers, optimizing data transmission. It  allow servers to send resources to the client before they are requested and speeding up page load times. It can uses binary format for faster parsing and processing by computers.
+
+These improvements in HTTP2 lead to faster load times, better performance and a smoother browsing experience especially on mobile devices and slower networks.
+
+In conclusion, while HTTP1.1 served the web well for many years, HTTP2 represents a significant upgrade in efficiency and speed, making the web faster and more responsive for users worldwide.
